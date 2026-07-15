@@ -1,9 +1,8 @@
 backend:
   name: github
-  repo: owner/repo # TODO: update with your github username/repo when hosted
+  repo: sibakom-dev/sibaagromandiri
   branch: main
 
-# Enable local backend for local development
 local_backend: true
 
 media_folder: "src/assets"
@@ -17,29 +16,108 @@ collections:
         label: "Home Page"
         name: "home"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - { label: "Template Layout", name: "layout", widget: "hidden", default: "layouts/home.njk" }
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - { label: "Meta Title", name: "title", widget: "string", required: false }
+              - { label: "Meta Description", name: "description", widget: "text", required: false }
+              - { label: "Social Image", name: "image", widget: "image", required: false }
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "CTA Text", name: "cta_text", widget: "string" }
+              - { label: "CTA Link", name: "cta_link", widget: "string" }
+              - { label: "Primary Image", name: "image_primary", widget: "image" }
+              - { label: "Logo Image", name: "image_logo", widget: "image" }
+          - label: "Features List"
+            name: "features"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "string" }
+              
       - file: "src/about.md"
         label: "About Us"
         name: "about"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - { label: "Template Layout", name: "layout", widget: "hidden", default: "layouts/about.njk" }
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - { label: "Meta Title", name: "title", widget: "string", required: false }
+              - { label: "Meta Description", name: "description", widget: "text", required: false }
+              - { label: "Social Image", name: "image", widget: "image", required: false }
+          - { label: "Page Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "markdown", required: false }
+          - label: "Images"
+            name: "images"
+            widget: "list"
+            field: { label: "Image", name: "image", widget: "image" }
+
       - file: "src/product.md"
         label: "Our Product"
         name: "product"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - { label: "Template Layout", name: "layout", widget: "hidden", default: "layouts/product.njk" }
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - { label: "Meta Title", name: "title", widget: "string", required: false }
+              - { label: "Meta Description", name: "description", widget: "text", required: false }
+              - { label: "Social Image", name: "image", widget: "image", required: false }
+          - { label: "Page Title", name: "title", widget: "string" }
+          - label: "Products List"
+            name: "products"
+            widget: "list"
+            fields:
+              - { label: "Product Name", name: "name", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Image", name: "image", widget: "image", required: false }
+
       - file: "src/gallery.md"
         label: "Gallery"
         name: "gallery"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - { label: "Template Layout", name: "layout", widget: "hidden", default: "layouts/gallery.njk" }
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - { label: "Meta Title", name: "title", widget: "string", required: false }
+              - { label: "Meta Description", name: "description", widget: "text", required: false }
+              - { label: "Social Image", name: "image", widget: "image", required: false }
+          - { label: "Page Title", name: "title", widget: "string" }
+          - label: "Gallery Images"
+            name: "gallery_images"
+            widget: "list"
+            field: { label: "Image", name: "image", widget: "image" }
+
       - file: "src/contact.md"
         label: "Contact Us"
         name: "contact"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - { label: "Template Layout", name: "layout", widget: "hidden", default: "layouts/contact.njk" }
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - { label: "Meta Title", name: "title", widget: "string", required: false }
+              - { label: "Meta Description", name: "description", widget: "text", required: false }
+              - { label: "Social Image", name: "image", widget: "image", required: false }
+          - { label: "Page Title", name: "title", widget: "string" }
+          - label: "Contact Info"
+            name: "contact_info"
+            widget: "object"
+            fields:
+              - { label: "Description", name: "description", widget: "string" }
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Phone", name: "phone", widget: "string" }
+              - { label: "Address", name: "address", widget: "text" }
