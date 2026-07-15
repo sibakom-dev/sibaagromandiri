@@ -35,9 +35,7 @@ collections:
               - { label: "CTA Link", name: "cta_link", widget: "string" }
               - { label: "Primary Image", name: "image_primary", widget: "image" }
               - { label: "Logo Image", name: "image_logo", widget: "image" }
-          - label: "Features List"
-            name: "features"
-            widget: "list"
+
             fields:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Description", name: "description", widget: "string" }
@@ -115,11 +113,31 @@ collections:
               - { label: "Meta Description", name: "description", widget: "text", required: false }
               - { label: "Social Image", name: "image", widget: "image", required: false }
           - { label: "Page Title", name: "title", widget: "string" }
-          - label: "Contact Info"
-            name: "contact_info"
+          - label: "Contact Details"
+            name: "contact_details"
             widget: "object"
             fields:
-              - { label: "Description", name: "description", widget: "string" }
-              - { label: "Email", name: "email", widget: "string" }
-              - { label: "Phone", name: "phone", widget: "string" }
               - { label: "Address", name: "address", widget: "text" }
+              - { label: "Phone", name: "phone", widget: "string" }
+              - { label: "Email", name: "email", widget: "string" }
+
+  - name: "products"
+    label: "Products"
+    folder: "siba-agro/src/products"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Short Description", name: "description", widget: "text" }
+      - { label: "Product Image", name: "image", widget: "image" }
+      - { label: "Full Description", name: "body", widget: "markdown" }
+
+  - name: "features"
+    label: "Features"
+    folder: "siba-agro/src/features"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Short Description", name: "description", widget: "text" }
+      - { label: "Full Description", name: "body", widget: "markdown" }

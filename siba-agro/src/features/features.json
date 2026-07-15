@@ -1,0 +1,4 @@
+{
+  "layout": "layouts/feature-single.njk",
+  "tags": ["features"]
+}

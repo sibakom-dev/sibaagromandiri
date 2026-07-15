@@ -12,11 +12,4 @@ hero:
   cta_link: "https://wa.me/6281264170157?text=Halo%20Siba%20Agro%2C%20Saya%20ingin%20order%20pupuk"
   image_primary: "/assets/pupuk-removebg-preview.png"
   image_logo: "/assets/logo-leaf-new.png"
-features:
-  - title: "Tested"
-    description: "Quality Checked"
-  - title: "Certified Organic"
-    description: "Eco Friendly"
-  - title: "Proven"
-    description: "Trusted by Farmers"
 ---
