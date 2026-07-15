@@ -5,7 +5,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11"> 
-	<title>Siba Agro Mandiri – Siba Agro Mandiri</title>
+	<title>{{ seo.title | default(title) | default("Siba Agro Mandiri") }}</title>
+<meta name="description" content="{{ seo.description | default("Siba Agro Mandiri - Organic Fertilizer") }}">
+<meta property="og:title" content="{{ seo.title | default(title) | default("Siba Agro Mandiri") }}">
+<meta property="og:description" content="{{ seo.description | default("Siba Agro Mandiri - Organic Fertilizer") }}">
+{% if seo.image %}<meta property="og:image" content="{{ seo.image }}">{% endif %}
 <meta name="robots" content="max-image-preview:large">
 <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
 <link rel="alternate" type="application/rss+xml" title="Siba Agro Mandiri » Feed" href="https://sibaagromandiri.com/feed/">
