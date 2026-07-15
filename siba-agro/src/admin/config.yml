@@ -1,0 +1,45 @@
+backend:
+  name: github
+  repo: owner/repo # TODO: update with your github username/repo when hosted
+  branch: main
+
+# Enable local backend for local development
+local_backend: true
+
+media_folder: "src/assets"
+public_folder: "/assets"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/index.md"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/about.md"
+        label: "About Us"
+        name: "about"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/product.md"
+        label: "Our Product"
+        name: "product"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/gallery.md"
+        label: "Gallery"
+        name: "gallery"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/contact.md"
+        label: "Contact Us"
+        name: "contact"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
