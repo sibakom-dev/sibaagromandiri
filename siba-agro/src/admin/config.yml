@@ -36,10 +36,6 @@ collections:
               - { label: "Primary Image", name: "image_primary", widget: "image" }
               - { label: "Logo Image", name: "image_logo", widget: "image" }
 
-            fields:
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Description", name: "description", widget: "string" }
-              
       - file: "siba-agro/src/about.md"
         label: "About Us"
         name: "about"
