@@ -3,10 +3,10 @@ title: Proven
 description: Trusted by Farmers
 ---
 
-## Terbukti Mensejahterakan Petani
+## Proven to Prosper Farmers
 
-**Indonesia Sejahtera** adalah visi kami. Dengan pupuk hayati organik berkualitas yang tersedia dan terjangkau, biaya tanam menjadi jauh lebih efisien, hasil panen meningkat secara signifikan, dan kualitas buah atau sayur membaik. Ujungnya adalah: *Petani menjadi lebih sejahtera.*
+Our vision is a **Prosperous** agricultural community. With high-quality, available, and affordable organic biofertilizers, planting costs become much more efficient, harvest yields increase significantly, and the quality of fruits or vegetables improves. The ultimate result is: *Farmers become more prosperous.*
 
-Ribuan petani di seluruh Indonesia telah membuktikan keampuhan produk kami, dari petani Jagung di Jawa Tengah, petani Cabai di Sumatera Barat, hingga petani Kacang di NTT.
+Thousands of farmers have proven the efficacy of our products, from corn farmers in Central Java to chili farmers in West Sumatra, and peanut farmers in NTT.
 
-Bergabunglah bersama komunitas petani sukses yang telah beralih ke pertanian organik modern.
+Join the successful farming community that has switched to modern organic farming.

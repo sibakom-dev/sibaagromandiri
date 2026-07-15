@@ -1,4 +1,5 @@
 {
   "layout": "layouts/product-single.njk",
-  "tags": ["products"]
+  "tags": ["products"],
+  "permalink": "product/{{ page.fileSlug }}/index.html"
 }

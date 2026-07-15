@@ -4,15 +4,15 @@ description: Premium liquid fertilizer for various crops.
 image: /assets/pupuk-removebg-preview.png
 ---
 
-## Pupuk Hayati Organik Cair Biokonversi
+## Liquid Organic Biofertilizer Biokonversi
 
-Pupuk Hayati Organik Cair Biokonversi mengandung hormon pertumbuhan yang meningkatkan daya tahan tanaman terhadap hama dan penyakit. Pupuk ini meremajakan kesuburan tanah dengan memperbaiki kondisi biologis dan fisik tanah.
+Liquid Organic Biofertilizer Biokonversi contains growth hormones that increase plant resistance to pests and diseases. This fertilizer rejuvenates soil fertility by improving its biological and physical conditions.
 
-### Manfaat & Keunggulan
-- Meningkatkan kemampuan daun untuk memompa nutrisi dari akar.
-- Memperkuat dan memelihara akar tanaman.
-- Merangsang mitosis jaringan pada pucuk, bunga, dan geragih (stolon).
-- Ramah lingkungan dan menekan penggunaan bahan kimia.
+### Benefits & Advantages
+- Increases the ability of leaves to pump nutrients from roots.
+- Strengthens and maintains plant roots.
+- Stimulates tissue mitosis in shoots, flowers, and stolons.
+- Eco-friendly and reduces the use of chemical fertilizers.
 
-### Cara Aplikasi
-Larutkan Pupuk Hayati Organik Cair Biokonversi ke dalam air (contoh: 10 ml pupuk dalam 1 liter air). Dapat diaplikasikan dengan cara penyemprotan maupun penyiraman langsung ke area sekitar batang pokok.
+### Application Method
+Dissolve Liquid Organic Biofertilizer Biokonversi in water (e.g., 10 ml of fertilizer in 1 liter of water). It can be applied by spraying or watering directly to the area around the main stem.

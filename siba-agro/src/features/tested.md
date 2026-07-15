@@ -3,10 +3,10 @@ title: Tested
 description: Quality Checked
 ---
 
-## Kualitas Teruji (Tested & Quality Checked)
+## Tested & Quality Checked
 
-Produk pupuk kami telah melewati berbagai uji coba lapangan dan laboratorium yang ketat sebelum didistribusikan kepada para petani. Kami memastikan bahwa setiap tetes dan butiran pupuk yang kami hasilkan memenuhi standar kualitas terbaik.
+Our fertilizer products have gone through various rigorous field and laboratory trials before being distributed to farmers. We ensure that every drop and granule of fertilizer we produce meets the best quality standards.
 
-Berkat pengujian berkelanjutan, formula pupuk Biokonversi terbukti efektif dalam meremajakan tanah yang kritis, dan mempercepat pertumbuhan akar, batang, serta daun pada berbagai jenis komoditas pertanian.
+Thanks to continuous testing, the Biokonversi fertilizer formula is proven effective in rejuvenating critical soil, and accelerating the growth of roots, stems, and leaves on various types of agricultural commodities.
 
-Kami bekerja sama dengan ahli agrikultur untuk terus memantau efektivitas produk kami di berbagai kondisi cuaca dan jenis tanah di Indonesia.
+We work with agricultural experts to continuously monitor the effectiveness of our products in various weather conditions and soil types in Indonesia.

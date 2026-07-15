@@ -4,14 +4,14 @@ description: High-quality granular fertilizer for long-lasting soil nutrition.
 image: /assets/produk_1-removebg-preview.png
 ---
 
-## Pupuk Hayati Organik Biogranul
+## Granular Organic Biofertilizer
 
-Pastikan nutrisi tanah dan tanaman Anda terpenuhi dengan Pupuk Hayati Organik Biogranul. Diformulasikan khusus untuk memberikan nutrisi jangka panjang dan memperbaiki struktur tanah.
+Ensure your soil and plant nutrition is fulfilled with Granular Organic Biofertilizer. Specially formulated to provide long-term nutrition and improve soil structure.
 
-### Manfaat & Keunggulan
-- Menjaga kelembaban dan kualitas tanah dalam jangka waktu yang lebih lama.
-- Mengembalikan unsur hara makro dan mikro yang dibutuhkan oleh tanaman.
-- Efisien dalam aplikasi lapangan dan tidak mudah tercuci oleh air hujan.
-- Mendukung sistem pertanian organik yang berkelanjutan dan ramah lingkungan.
+### Benefits & Advantages
+- Maintains soil moisture and quality for a longer period of time.
+- Restores macro and micro nutrients needed by plants.
+- Efficient in field application and not easily washed away by rainwater.
+- Supports sustainable and environmentally friendly organic farming systems.
 
-Pupuk granular sangat cocok diaplikasikan pada saat pengolahan lahan awal maupun sebagai pupuk susulan pada berbagai jenis tanaman perkebunan dan hortikultura.
+Granular fertilizer is highly suitable to be applied during initial land preparation or as a supplementary fertilizer for various types of plantation and horticultural crops.
