@@ -1,0 +1,27 @@
+---
+layout: layout.njk
+---
+<div class="elementor-element elementor-element-c125479 e-flex e-con-boxed e-con e-parent" data-id="c125479" data-element_type="container" id="produk" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    <div class="e-con-inner">
+        <div class="elementor-element elementor-element-d95f03f elementor-widget elementor-widget-heading" data-id="d95f03f" data-element_type="widget" data-widget_type="heading.default">
+            <div class="elementor-widget-container">
+                <h2 class="elementor-heading-title elementor-size-default">{{ title }}</h2>
+            </div>
+        </div>
+        
+        <!-- We add a product grid here so they can populate products via Sveltia CMS -->
+        {% if products and products.length > 0 %}
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 40px;">
+            {% for product in products %}
+            <div style="width: 300px; padding: 20px; border: 1px solid #eee; border-radius: 10px; text-align: center;">
+                {% if product.image %}
+                <img src="{{ product.image }}" alt="{{ product.name }}" style="max-width: 100%; height: auto; border-radius: 5px;">
+                {% endif %}
+                <h3 style="margin: 15px 0 10px;">{{ product.name }}</h3>
+                <p>{{ product.description }}</p>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</div>

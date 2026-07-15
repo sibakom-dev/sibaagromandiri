@@ -1,12 +1,15 @@
 ---
-layout: layout.njk
-title: Our Product
+layout: layouts/product.njk
+seo:
+  title: Our Product - Siba Agro Mandiri
+  description: Explore the organic fertilizer products distributed by PT Siba Agro Mandiri.
+  image: /assets/logo-leaf-new.png
+title: "Our Product"
+products:
+  - name: "Liquid Organic Biofertilizer Biokonversi"
+    description: "Premium liquid fertilizer for various crops."
+    image: "/assets/pupuk-removebg-preview.png"
+  - name: "Granular Organic Biofertilizer Biokonversi"
+    description: "High-quality granular fertilizer."
+    image: "/assets/produk_1-removebg-preview.png"
 ---
-<div class="elementor-element elementor-element-c125479 e-flex e-con-boxed e-con e-parent" data-id="c125479" data-element_type="container" id="produk" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-d95f03f elementor-widget elementor-widget-heading" data-id="d95f03f" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Our Product</h2>				</div>
-				</div>
-					</div>
-				</div>

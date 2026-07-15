@@ -1,0 +1,19 @@
+---
+layout: layout.njk
+---
+<div class="elementor-element elementor-element-e7c836f e-flex e-con-boxed e-con e-parent" data-id="e7c836f" data-element_type="container" id="kontak">
+    <div class="e-con-inner">
+        <div class="elementor-element elementor-element-9e1c0c7 elementor-widget elementor-widget-heading" data-id="9e1c0c7" data-element_type="widget" data-widget_type="heading.default">
+            <div class="elementor-widget-container">
+                <h2 class="elementor-heading-title elementor-size-default">{{ title }}</h2>
+            </div>
+        </div>
+        
+        <div style="margin-top: 30px; text-align: center;">
+            <p>{{ contact_info.description }}</p>
+            <p><strong>Email:</strong> <a href="mailto:{{ contact_info.email }}">{{ contact_info.email }}</a></p>
+            <p><strong>Phone:</strong> <a href="tel:{{ contact_info.phone }}">{{ contact_info.phone }}</a></p>
+            <p><strong>Address:</strong> {{ contact_info.address }}</p>
+        </div>
+    </div>
+</div>

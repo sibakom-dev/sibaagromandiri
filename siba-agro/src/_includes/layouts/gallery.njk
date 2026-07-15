@@ -1,0 +1,23 @@
+---
+layout: layout.njk
+---
+<section class="elementor-element elementor-element-ea9e0d9 e-flex e-con-boxed e-con e-parent" data-id="ea9e0d9" data-element_type="container" id="media" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    <div class="e-con-inner">
+        <section class="elementor-element elementor-element-fb2965a e-con-full e-flex e-con e-child" data-id="fb2965a" data-element_type="container" id="Media">
+            <div class="elementor-element elementor-element-66ecd28 elementor-widget elementor-widget-heading" data-id="66ecd28" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                    <h2 class="elementor-heading-title elementor-size-default">{{ title }}</h2>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-04bb116 e-grid e-con-full e-con e-child" data-id="04bb116" data-element_type="container">
+                {% for item in gallery_images %}
+                <div class="elementor-element elementor-widget elementor-widget-image" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                        <img decoding="async" src="{{ item.image }}" alt="Gallery Image" loading="lazy">
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+    </div>
+</section>
