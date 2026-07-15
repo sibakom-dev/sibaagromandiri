@@ -59,7 +59,8 @@ collections:
           - label: "Images"
             name: "images"
             widget: "list"
-            field: { label: "Image", name: "image", widget: "image" }
+            fields:
+              - { label: "Image", name: "image", widget: "image" }
 
       - file: "src/product.md"
         label: "Our Product"
@@ -98,7 +99,8 @@ collections:
           - label: "Gallery Images"
             name: "gallery_images"
             widget: "list"
-            field: { label: "Image", name: "image", widget: "image" }
+            fields:
+              - { label: "Image", name: "image", widget: "image" }
 
       - file: "src/contact.md"
         label: "Contact Us"
