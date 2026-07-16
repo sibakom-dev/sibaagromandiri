@@ -1,0 +1,5 @@
+{
+  "tags": ["galeri_posts"],
+  "layout": "layouts/gallery_post.njk",
+  "permalink": "/galeri/{{ page.fileSlug }}/index.html"
+}

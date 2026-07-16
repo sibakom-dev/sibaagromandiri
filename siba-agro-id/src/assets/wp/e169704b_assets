@@ -1,0 +1,31 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="stylesheet" href="/_autoindex/sibaagromandiri/assets/css/autoindex.css" /><script src="/_autoindex/sibaagromandiri/assets/js/tablesort.js"></script><script src="/_autoindex/sibaagromandiri/assets/js/tablesort.number.js"></script><title>Index of /wp-content/plugins/elementor/sibaagromandiri/assets/</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head><body><div class="content"><h1 style="color: #555;">Index of /wp-content/plugins/elementor/sibaagromandiri/assets/</h1>
+<div id="table-filter"><input type="text" name="keyword" id="filter-keyword" placeholder="Filter Name"></div>
+<div id="table-list"><table id="table-content"><thead class="t-header"><tr><th class="colname" aria-sort="ascending"><a class="name" href="?ND"  onclick="return false"">Name</a></th><th class="colname" data-sort-method="number"><a href="?MA"  onclick="return false"">Last Modified</a></th><th class="colname" data-sort-method="number"><a href="?SA"  onclick="return false"">Size</a></th></tr></thead>
+<tr data-sort-method="none"><td><a href="/wp-content/plugins/elementor/"><img class="icon" src="/_autoindex/sibaagromandiri/assets/icons/corner-left-up.svg" alt="Up">Parent Directory</a></td><td></td><td></td></tr>
+<tr><td data-sort="*css"><a href="/wp-content/plugins/elementor/sibaagromandiri/assets/css/"><img class="icon" src="/_autoindex/sibaagromandiri/assets/icons/folder-fill.svg" alt="Directory">css</a></td><td data-sort="172305191">2025-06-05 06:33</td><td data-sort="-1">-</td></tr>
+<tr><td data-sort="*data"><a href="/wp-content/plugins/elementor/sibaagromandiri/assets/data/"><img class="icon" src="/_autoindex/sibaagromandiri/assets/icons/folder-fill.svg" alt="Directory">data</a></td><td data-sort="172305191">2025-06-05 06:33</td><td data-sort="-1">-</td></tr>
+<tr><td data-sort="*images"><a href="/wp-content/plugins/elementor/sibaagromandiri/assets/images/"><img class="icon" src="/_autoindex/sibaagromandiri/assets/icons/folder-fill.svg" alt="Directory">images</a></td><td data-sort="172305192">2025-06-05 06:33</td><td data-sort="-1">-</td></tr>
+<tr><td data-sort="*js"><a href="/wp-content/plugins/elementor/sibaagromandiri/assets/js/"><img class="icon" src="/_autoindex/sibaagromandiri/assets/icons/folder-fill.svg" alt="Directory">js</a></td><td data-sort="172305209">2025-06-05 06:33</td><td data-sort="-1">-</td></tr>
+<tr><td data-sort="*lib"><a href="/wp-content/plugins/elementor/sibaagromandiri/assets/lib/"><img class="icon" src="/_autoindex/sibaagromandiri/assets/icons/folder-fill.svg" alt="Directory">lib</a></td><td data-sort="172305190">2025-06-05 06:33</td><td data-sort="-1">-</td></tr>
+<tr><td data-sort="*mask-shapes"><a href="/wp-content/plugins/elementor/sibaagromandiri/assets/mask-shapes/"><img class="icon" src="/_autoindex/sibaagromandiri/assets/icons/folder-fill.svg" alt="Directory">mask-shapes</a></td><td data-sort="172305214">2025-06-05 06:33</td><td data-sort="-1">-</td></tr>
+<tr><td data-sort="*shapes"><a href="/wp-content/plugins/elementor/sibaagromandiri/assets/shapes/"><img class="icon" src="/_autoindex/sibaagromandiri/assets/icons/folder-fill.svg" alt="Directory">shapes</a></td><td data-sort="172305214">2025-06-05 06:33</td><td data-sort="-1">-</td></tr>
+<tr><td data-sort="*svg-paths"><a href="/wp-content/plugins/elementor/sibaagromandiri/assets/svg-paths/"><img class="icon" src="/_autoindex/sibaagromandiri/assets/icons/folder-fill.svg" alt="Directory">svg-paths</a></td><td data-sort="172305214">2025-06-05 06:33</td><td data-sort="-1">-</td></tr>
+</table></div>
+<address>Proudly Served by LiteSpeed Web Server at sibaagromandiri.com Port 443</address></div><script>
+	new Tablesort(document.getElementById("table-content"));
+	var keywordInput = document.getElementById('filter-keyword');
+	document.addEventListener('keyup', filterTable);
+
+	function filterTable(e) {
+		if (e.target.id != 'filter-keyword') return;
+
+		var cols = document.querySelectorAll('tbody td:first-child');
+		var keyword = keywordInput.value.toLowerCase();
+		for (i = 0; i < cols.length; i++) {
+			var text = cols[i].textContent.toLowerCase();
+			if (text != 'parent directory') {
+				cols[i].parentNode.style.display = text.indexOf(keyword) === -1 ? 'none' : 'table-row';
+			}
+		}
+	}
+</script></body></html>
