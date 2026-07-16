@@ -502,12 +502,12 @@ const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(
 
 
 <div id="cta-modal-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); z-index: 9999; justify-content: center; align-items: center;">
-    <div id="cta-modal-content" style="background: white; border-radius: 12px; max-width: 650px; width: 90%; overflow: hidden; position: relative; box-shadow: 0 10px 40px rgba(0,0,0,0.4); display: flex; flex-direction: column;">
-        <button onclick="document.getElementById('cta-modal-overlay').style.display='none'" style="position: absolute; top: 15px; right: 15px; background: #e74c3c; color: white; border: 2px solid white; border-radius: 50%; width: 44px; height: 44px; cursor: pointer; display: flex; justify-content: center; align-items: center; z-index: 10; box-shadow: 0 4px 10px rgba(0,0,0,0.3); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"></path></svg>
+    <div id="cta-modal-content" style="background: white; border-radius: 12px; max-width: 500px; width: 90%; max-height: 90vh; overflow-y: auto; position: relative; box-shadow: 0 10px 40px rgba(0,0,0,0.4); display: flex; flex-direction: column;">
+        <button onclick="document.getElementById('cta-modal-overlay').style.display='none'" style="position: absolute; top: 15px; right: 15px; background: #e74c3c; color: white; border: 2px solid white; border-radius: 50%; width: 44px; height: 44px; cursor: pointer; display: flex; justify-content: center; align-items: center; z-index: 10; box-shadow: 0 4px 10px rgba(0,0,0,0.3); transition: transform 0.2s; font-size: 24px; font-weight: bold; font-family: sans-serif; line-height: 1;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+            &times;
         </button>
         
-        <img src="/assets/contoh-image-cta.png" alt="Tingkatkan Hasil Panen Anda!" style="width: 100%; height: auto; max-height: 350px; object-fit: cover;">
+        <img src="/assets/contoh-image-cta.png" alt="Tingkatkan Hasil Panen Anda!" style="width: 100%; height: auto; object-fit: cover;">
         
         <div style="padding: 35px; text-align: center;">
             <h2 style="margin-top: 0; font-size: 1.8em; color: var(--ast-global-color-0);">Tingkatkan Hasil Panen Anda!</h2>
