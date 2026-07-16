@@ -7,6 +7,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.addPassthroughCopy("src/.nojekyll");
+  // Allow LAN access to the dev server
+  eleventyConfig.setServerOptions({
+    host: "0.0.0.0",
+    port: 8080
+  });
 
   return {
     dir: {
