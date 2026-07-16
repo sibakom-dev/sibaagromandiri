@@ -1,0 +1,23 @@
+---
+layout: layout.njk
+---
+<div class="ast-container" style="padding: 40px 20px;">
+    <article class="post">
+        <header class="entry-header" style="text-align: center; margin-bottom: 30px;">
+            <h1 class="entry-title">{{ title }}</h1>
+            {% if description %}
+                <p style="color: var(--ast-global-color-3); font-size: 1.1em;">{{ description }}</p>
+            {% endif %}
+        </header>
+        
+        {% if image %}
+        <div class="post-thumbnail" style="text-align: center; margin-bottom: 40px;">
+            <img src="{{ image }}" alt="{{ title }}" style="max-width: 100%; border-radius: 8px;">
+        </div>
+        {% endif %}
+        
+        <div class="entry-content" style="max-width: 800px; margin: 0 auto; line-height: 1.8;">
+            {{ content | safe }}
+        </div>
+    </article>
+</div>

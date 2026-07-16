@@ -1,0 +1,28 @@
+---
+layout: layout.njk
+---
+<div class="elementor-element elementor-element-c125479 e-flex e-con-boxed e-con e-parent" data-id="c125479" data-element_type="container" id="produk" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    <div class="e-con-inner">
+        <div class="elementor-element elementor-element-d95f03f elementor-widget elementor-widget-heading" data-id="d95f03f" data-element_type="widget" data-widget_type="heading.default">
+            <div class="elementor-widget-container">
+                <h2 class="elementor-heading-title elementor-size-default">{{ title }}</h2>
+            </div>
+        </div>
+        
+        <!-- We add a product grid here so they can populate products via Sveltia CMS -->
+        {% if collections.products and collections.products.length > 0 %}
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 40px;">
+            {% for product in collections.products %}
+            <div style="width: 300px; padding: 20px; border: 1px solid #eee; border-radius: 10px; text-align: center;">
+                {% if product.data.image %}
+                <img src="{{ product.data.image }}" alt="{{ product.data.title }}" style="max-width: 100%; height: auto; border-radius: 5px;">
+                {% endif %}
+                <h3 style="margin: 15px 0 10px;">{{ product.data.title }}</h3>
+                <p>{{ product.data.description }}</p>
+                <a href="{{ product.url }}" style="display: inline-block; margin-top: 15px; padding: 8px 15px; background-color: var(--ast-global-color-0); color: #fff; text-decoration: none; border-radius: 5px;">Read More</a>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</div>

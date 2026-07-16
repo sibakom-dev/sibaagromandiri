@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/feature-single.njk",
+  "tags": ["features"],
+  "permalink": "feature/{{ page.fileSlug }}/index.html"
+}

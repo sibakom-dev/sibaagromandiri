@@ -5,15 +5,15 @@ backend:
 
 local_backend: true
 
-media_folder: "siba-agro/src/assets"
+media_folder: "siba-agro-id/src/assets"
 public_folder: "/assets"
 
 collections:
   - name: "pages"
-    label: "Pages"
+    label: "Halaman"
     files:
-      - file: "siba-agro/src/index.md"
-        label: "Home Page"
+      - file: "siba-agro-id/src/index.md"
+        label: "Beranda"
         name: "home"
         fields:
           - { label: "Template Layout", name: "layout", widget: "hidden", default: "layouts/home.njk" }
@@ -36,8 +36,8 @@ collections:
               - { label: "Primary Image", name: "image_primary", widget: "image" }
               - { label: "Logo Image", name: "image_logo", widget: "image" }
 
-      - file: "siba-agro/src/about.md"
-        label: "About Us"
+      - file: "siba-agro-id/src/tentang-kami.md"
+        label: "Tentang Kami"
         name: "about"
         fields:
           - { label: "Template Layout", name: "layout", widget: "hidden", default: "layouts/about.njk" }
@@ -56,8 +56,8 @@ collections:
             fields:
               - { label: "Image", name: "image", widget: "image" }
 
-      - file: "siba-agro/src/product.md"
-        label: "Our Product"
+      - file: "siba-agro-id/src/produk.md"
+        label: "Produk Kami"
         name: "product"
         fields:
           - { label: "Template Layout", name: "layout", widget: "hidden", default: "layouts/product.njk" }
@@ -77,8 +77,8 @@ collections:
               - { label: "Description", name: "description", widget: "text" }
               - { label: "Image", name: "image", widget: "image", required: false }
 
-      - file: "siba-agro/src/gallery.md"
-        label: "Gallery"
+      - file: "siba-agro-id/src/galeri.md"
+        label: "Galeri"
         name: "gallery"
         fields:
           - { label: "Template Layout", name: "layout", widget: "hidden", default: "layouts/gallery.njk" }
@@ -96,8 +96,8 @@ collections:
             fields:
               - { label: "Image", name: "image", widget: "image" }
 
-      - file: "siba-agro/src/contact.md"
-        label: "Contact Us"
+      - file: "siba-agro-id/src/hubungi-kami.md"
+        label: "Hubungi Kami"
         name: "contact"
         fields:
           - { label: "Template Layout", name: "layout", widget: "hidden", default: "layouts/contact.njk" }
@@ -118,8 +118,8 @@ collections:
               - { label: "Email", name: "email", widget: "string" }
 
   - name: "products"
-    label: "Products"
-    folder: "siba-agro/src/products"
+    label: "Produk"
+    folder: "siba-agro-id/src/products"
     create: true
     slug: "{{slug}}"
     fields:
@@ -129,11 +129,25 @@ collections:
       - { label: "Full Description", name: "body", widget: "markdown" }
 
   - name: "features"
-    label: "Features"
-    folder: "siba-agro/src/features"
+    label: "Fitur"
+    folder: "siba-agro-id/src/features"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Short Description", name: "description", widget: "text" }
       - { label: "Full Description", name: "body", widget: "markdown" }
+
+  - name: "settings"
+    label: "Pengaturan"
+    files:
+      - name: "cta"
+        label: "Popup CTA"
+        file: "siba-agro-id/src/_data/cta.json"
+        fields:
+          - {label: "Tampilkan Popup", name: "enabled", widget: "boolean", default: true}
+          - {label: "Judul", name: "title", widget: "string"}
+          - {label: "Deskripsi", name: "description", widget: "text"}
+          - {label: "Teks Tombol", name: "button_text", widget: "string"}
+          - {label: "Link Tombol", name: "button_link", widget: "string"}
+          - {label: "Gambar", name: "image", widget: "image"}
