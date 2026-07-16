@@ -9,7 +9,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/.nojekyll");
 
   return {
-    pathPrefix: "/sibaagromandiri/",
     dir: {
       input: "src",
       output: "docs",
