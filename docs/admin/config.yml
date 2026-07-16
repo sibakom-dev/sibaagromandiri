@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: sibakom-dev/sibaagromandiri
-  branch: main
+  branch: siba-agro-id
 
 local_backend: true
 
@@ -90,11 +90,6 @@ collections:
               - { label: "Meta Description", name: "description", widget: "text", required: false }
               - { label: "Social Image", name: "image", widget: "image", required: false }
           - { label: "Page Title", name: "title", widget: "string" }
-          - label: "Gallery Images"
-            name: "gallery_images"
-            widget: "list"
-            fields:
-              - { label: "Image", name: "image", widget: "image" }
 
       - file: "siba-agro-id/src/hubungi-kami.md"
         label: "Hubungi Kami"
@@ -137,6 +132,17 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Short Description", name: "description", widget: "text" }
       - { label: "Full Description", name: "body", widget: "markdown" }
+
+  - name: "galeri_posts"
+    label: "Acara Galeri"
+    folder: "siba-agro-id/src/galeri-posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Judul Acara", name: "title", widget: "string" }
+      - { label: "Deskripsi Singkat", name: "description", widget: "text" }
+      - { label: "Gambar Thumbnail", name: "image", widget: "image" }
+      - { label: "Isi Konten", name: "body", widget: "markdown", required: false }
 
   - name: "settings"
     label: "Pengaturan"
